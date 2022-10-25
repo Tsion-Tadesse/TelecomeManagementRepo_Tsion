@@ -8,7 +8,9 @@ public class TelecomeManagmentApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TelecomeManagmentApplication.class, args);
-	System.out.println("Welcome to the Telecome Managment App");
+		System.out.println("Hello");
+		System.out.println("Welcome to the Telecome Managment App");
+	
 	}
 
 }
