@@ -21,7 +21,7 @@ public class PlansController {
 	@Autowired
 	PlansRepository plansRepository;
 	
-	@PostMapping("/addplans")
+	@PostMapping("/@Value")
 	Plans addPlans(@RequestBody Plans plans) {
 		return plansRepository.save(plans);
 	}
